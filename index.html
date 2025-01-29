@@ -23,36 +23,36 @@
 
 <body>
 
-  <main class="max-w-screen-xl m-auto">
-    <header class=" mt-14 flex space-x-24 mb-20">
-      <div>
-        <h1 class="text-7xl font-semibold mb-5 text-grey-500">It's good<br>tea time at The<br>Tea House</h1>
+  <main class="m-auto max-w-screen-xl ">
+    <header class=" flex px-5 lg:pl-0 flex-col space-y-7 mt-14  mb-20 lg:space-x-24 lg:flex-row">
+      <div class="text-center lg:text-left">
+        <h1 class="text-5xl font-semibold mb-5 text-grey-500 md:text-6xl lg:text-7xl">It's good<br>tea time at The<br>Tea House</h1>
         <p class="mb-5 text-xl">Tea and Botanical Solutions Supplier Give<br>Satisfaction To Your Taste Buds.</p>
         <button
           class="items-center p-4 text-xl font-bold text-white bg-slate-500 rounded-lg bg-gradient-to-r from-orange-600 to-red-600">Explore
           more<i class=" ml-3 text-2xl fa-solid fa-arrow-right -rotate-45"></i></button>
       </div>
-      <div class="relative">
+      <div class="relative pl-5 md:mx-auto lg:pl-0">
         <img src="images/banner.png" alt="">
-        <div class="absolute px-3 py-2 left-32 top-[390px] bg-white flex items-center rounded-lg shadow-lg">
+        <div class="absolute px-3 py-2 top-48 left-20 bg-white flex items-center rounded-lg shadow-lg md:left-56 md:top-[395px] lg:left-32 lg:top-[390px]">
           <div class="text-3xl mr-3 text-amber-500">
             <i class="fa-solid fa-star"></i>
           </div>
           <div>
-            <h2 class="text-3xl font-bold">5.00</h2>
+            <h2 class="text-xl font-bold lg:text-3xl">5.00</h2>
             <p class="text-gray-600">Trust Pilot Ratings</p>
           </div>
         </div>
       </div>
     </header>
 
-    <middle>
-      <section class="mb-36">
-        <h1 class="text-4xl font-semibold text-center">Our Featured Products</h1>
+     <middle>
+      <section class="mb-36 px-5 lg:pl-0">
+        <h1 class="text-4xl font-semibold text-center md:text-5xl">Our Featured Products</h1>
         <p class="text-gray-600 text-center mt-5 mb-11">There are many variations of passages of Lorem Ipsum available,
           but the majority have suffered alteration in some form,<br>by injected humour, or randomised words which don't
           look even slightly believable. </p>
-        <div class="grid grid-cols-4 text-center gap-5 mx-auto">
+        <div class="grid grid-cols-1 text-center gap-5 mx-auto md:grid-cols-2 lg:grid-cols-4">
           <div class="rounded-lg bg-gray-50">
             <img class="mx-auto pt-5" src="images/tea-1.png" alt="">
             <div class="p-7">
@@ -85,19 +85,19 @@
       </section>
 
 
-      <section class="grid grid-cols-2 gap-12 mb-40 items-center">
+      <section class="grid px-5 grid-cols-1 gap-8 mb-40 items-center lg:gap-12 lg:pl-0 lg:grid-cols-2"> 
         <div class=" grid grid-rows-3 grid-cols-2 gap-4">
           <div class="rounded-xl bg-gradient-to-r from-white to-red-200"></div>
           <div class="row-span-2 bg-red-50 rounded-xl">
-            <img class="h-64 mx-auto my-4" src="images/fresh-1.png" alt="">
+            <img class="h-48 mx-auto my-4 md:h-64 " src="images/fresh-1.png" alt="">
           </div>
           <div class="row-span-2 bg-stone-100 rounded-xl">
-            <img class="h-64 mx-auto my-4" src="images/fresh-2.png" alt="">
+            <img class="h-48  mx-auto my-4 md:h-64" src="images/fresh-2.png" alt="">
           </div>
           <div class=" rounded-xl bg-gradient-to-r from-stone-300 to-white"></div>
         </div>
         <div class=" pr-4">
-          <h1 class="text-4xl font-semibold pb-4">Great Tea, Freshly<br> Presented</h1>
+          <h1 class="text-4xl font-semibold pb-4 md:text-5xl">Great Tea, Freshly<br> Presented</h1>
           <p class="text-gray-500 pb-6">The meaning of gong cha is chanese is to provide the best tea to emperor from
             all
             possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had
@@ -117,10 +117,10 @@
       </section>
 
 
-      <section class=" grid grid-cols-2 gap-6 rounded-xl bg-gradient-to-r from-orange-500 to-red-500 px-16 mb-40">
+      <section class="mx-5 px-5 grid grid-cols-1 gap-6 rounded-xl bg-gradient-to-r from-orange-500 to-red-500 lg:grid-cols-2 lg:px-16 lg:mx-0 mb-40">
 
         <!-- details segment -->
-        <div class="text-white items-center my-36">
+        <div class="my-14 text-white items-center lg:my-36">
           <h1 class="text-4xl font-semibold">Meet Our Super Clients</h1>
           <p class="mt-6 mb-8">There are many variations of passages of Lorem Ipsum available, but the majority have
             suffered alteration in some form, by injected humour, or randomised words which don't look even slightly
@@ -130,9 +130,9 @@
 
 
         <!-- card segment -->
-        <div class="relative pt-12">
+        <div class="relative pb-10 space-y-6 md:container lg:pt-12 lg:pb-0">
           <!-- top card -->
-          <div class=" relative left-28 w-4/5 bg-white rounded-lg text-black  opacity-30">
+          <div class=" relative left-16 w-4/5 bg-white rounded-lg text-black opacity-30 lg:left-28">
             <div class="bg-white absolute rounded-full -left-8 -top-7">
               <img class=" p-0.5" src="images/client.png" alt="">
             </div>
@@ -146,7 +146,7 @@
           </div>
 
           <!-- middle card -->
-          <div class=" top-40 left-3 absolute w-4/5 z-10 bg-white rounded-lg text-black ">
+          <div class=" top-20  left-5 absolute w-4/5 z-10 bg-white rounded-lg text-black lg:top-40">
             <div class="bg-white absolute rounded-full -left-8 -top-7">
               <img class=" p-0.5" src="images/client.png" alt="">
             </div>
@@ -160,7 +160,7 @@
           </div>
 
           <!-- bottom card -->
-          <div class=" top-12 left-28 relative w-4/5 bg-white rounded-lg text-black opacity-30">
+          <div class=" relative left-16 w-4/5 bg-white rounded-lg text-black opacity-30 lg:left-28">
             <div class="bg-white absolute rounded-full -left-8 -top-7">
               <img class=" p-0.5" src="images/client.png" alt="">
             </div>
@@ -175,16 +175,17 @@
 
       </section>
 
-      <section class="mb-40">
+
+       <section class="px-5 mb-40 lg:px-0"> 
         <div class="text-center mb-12">
-          <h1 class="text-4xl font-semibold mb-5">News & Events</h1>
+          <h1 class="text-4xl font-semibold mb-5 md:text-5xl">News & Events</h1>
           <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have
             suffered alteration in some form,,<br>by injected humour, or randomised words which don't look even slightly
             believable. </p>
         </div>
-        <div class="flex gap-6">
+        <div class="flex flex-col gap-6 md:gap-10 lg:flex-row">
 
-          <div class="rounded-lg pl-11 py-8 border border-slate-400 space-y-3">
+          <div class="rounded-lg px-11 py-8 border border-slate-400 space-y-3 md:mx-auto md:flex md:flex-col md:justify-center lg:pl-11">
             <img class="mb-4" src="images/news-1.png" alt="">
             <date class="text-gray-500">17,may,2014</date>
             <h3 class="text-lg font-medium ">Collecting 8 points for discount</h3>
@@ -192,7 +193,7 @@
             <p>Learn more</p>
           </div>
 
-          <div class="rounded-lg pl-11 py-8 border border-slate-400 space-y-3">
+          <div class="rounded-lg px-11 py-8 border border-slate-400 space-y-3 md:mx-auto md:flex md:flex-col md:justify-center lg:pl-11">
             <img class="mb-4" src="images/news-2.png" alt="">
             <date class="text-gray-500">17,may,2014</date>
             <h3 class="text-lg font-medium ">Collecting 8 points for discount</h3>
@@ -200,7 +201,7 @@
             <p>Learn more</p>
           </div>
 
-          <div class="rounded-lg pl-11 py-8 border border-slate-400 space-y-3">
+          <div class="rounded-lg px-11 py-8 border border-slate-400 space-y-3 md:mx-auto md:flex md:flex-col md:justify-center lg:pl-11">
             <img class="mb-4" src="images/news-3.png" alt="">
             <date class="text-gray-500">17,may,2014</date>
             <h3 class="text-lg font-medium ">Collecting 8 points for discount</h3>
@@ -211,19 +212,19 @@
       </section>
     </middle>
   </main>
-  <footer class="bg-orange-100 py-20">
+  <footer class="px-5 bg-orange-100 py-20 lg:px-0">
     <section class="max-w-screen-xl mx-auto">
-      <div class="flex justify-between items-center mb-12">
+      <div class="flex flex-col space-y-4 items-center mb-12 lg:justify-between lg:flex-row">
         <img src="images/cup.png" alt="">
-        <div class="flex gap-6 items-center mr-40">
+        <div class="flex gap-6 items-center lg:mr-40">
           <p>Ready to get started?</p>
           <button
             class="items-center py-1 px-4 text-lg font-semibold text-white bg-slate-500 rounded-lg bg-gradient-to-r from-orange-600 to-red-600">Get
             Started</button>
         </div>
       </div>
-      <div class="grid grid-cols-4 mb-14">
-        <div class="space-y-4">
+      <div class="grid gap-10 grid-cols-1  mb-14 md:grid-cols-2 md:gap-6 lg:grid-cols-4">
+        <div class="space-y-6 lg:space-y-4">
           <h4 class="font-semibold">Quick links</h4>
           <ul class="space-y-2 text-stone-500">
             <li><a href="">Home</a></li>
@@ -232,7 +233,7 @@
             <li><a href="">policy</a></li>
           </ul>
         </div>
-        <div class="space-y-4">
+        <div class="space-y-6 lg:space-y-4">
           <h4 class="font-semibold">Our services</h4>
           <ul class="space-y-2  text-stone-500">
             <li><a href="">Home insurance</a></li>
@@ -241,7 +242,7 @@
             <li><a href="">House Insurance</a></li>
           </ul>
         </div>
-        <div class="space-y-4">
+        <div class="space-y-6 lg:space-y-4">
           <h4 class="font-semibold">Help</h4>
           <ul class="space-y-2  text-stone-500">
             <li><a href="">FaQ</a></li>
@@ -265,4 +266,4 @@
   </footer>
 </body>
 
-</html>
+</html> 
